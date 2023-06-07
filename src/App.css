@@ -1,0 +1,88 @@
+.app {
+  width: 600px;
+  min-height: 400px;
+  box-shadow: 0 2px 6px #555;
+  margin: 50px auto;
+  padding: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .app {
+    width: 90vw ;
+  }
+}
+.container_todo h2 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 900;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+#button {
+  margin: 8px;
+}
+
+
+.text_aria {
+  margin-top: 10px !important;
+}
+
+.icon {
+  margin: 5px;
+  display: none;
+}
+
+.item:hover .icon{
+  display: inline-block;
+}
+
+.checkicon:hover {
+  border-radius: 3px;
+  background: #dedad8d4;
+}
+.editicon:hover {
+  border-radius: 3px;
+
+  background: #dedad8d4;
+}
+.removeicon:hover {
+
+  border-radius: 3px;
+  background: #dedad8d4;
+}
+
+.completed {
+  text-decoration: line-through !important;
+}
+
+.completed .success {
+  opacity: 0.5 !important;
+}
+
+
+.footer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  width: 100%;
+
+}
+.itembtn {
+  margin-right: 10px;
+}
+
+.selected {
+  background-color: #0052cc !important;
+}
+
+.selected span {
+  color: #ffff !important;
+}
+
+.item {
+  margin-top : 10px ;
+  text-align: left !important;
+  font-size : 17px ;
+}
